@@ -1,0 +1,82 @@
+body {
+    background-color: #298eea;
+    font-family: 'Roboto', helvetica, sans-serif;
+}
+
+main {
+    width: 400px;
+    background-color: white;
+    margin: auto;
+    box-sizing: border-box;
+    padding: 40px;
+}
+
+main h1 {
+    text-align: center;
+}
+
+main input {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 2px solid #c7c7c7;
+    padding: 15px;
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 2px;
+    font-size: 1em;
+}
+
+.has_account {
+    text-align: center;
+    color: white;
+}
+
+legend {
+    margin: auto;
+    padding-bottom: 40px;
+    font-size: 2em;
+    font-weight: 300;
+    color: grey;
+}
+
+.has_account > a {
+    color: white;
+}
+
+.forgot_password {    
+    text-align: center;
+}
+
+.forgot_password > a {    
+    color: grey;
+}
+
+img {
+    margin: auto;
+    height: 35px;
+    margin-top: 50px;
+    display: block;
+    margin-bottom: 50px;
+}
+
+fieldset {
+    border: 0px;
+}
+
+button {
+    font-size: 1em;
+    background-color: #66c766;
+    width: 100%;
+    border: 0px;
+    color: white;
+    padding: 15px;
+    border-radius: 3px;
+    transition: background-color 0.4s ease;
+    cursor: pointer;
+}
+
+
+button:hover {
+    background-color: green;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <link rel="stylesheet" href="main.css">
+    <title>Anvil is running</title>
+</head>
+
+<body>
+    <img src="logo.png" alt="">
+    <main>
+        <form class='demo-form' action="/signup/" method='post'>
+            <fieldset>
+                <legend>Sign up</legend>
+                <label for="email">Email</label>
+                <input required placeholder='foo@bar.com' type="email" name='email' id='email' />
+                <label for="password">Password</label>
+                <input required placeholder='foo@bar.com' type="password" name='password' id='password' />
+                <button type="submit">Sign up</button>
+                <p class="forgot_password">
+                    <a href="/forgot-password/new">Forgot password?</a>
+                </p>
+            </fieldset>
+        </form>
+    </main>
+    <p class="has_account"> Already have an account? <a href="/login">log in</a> </p>
+</body>
+
+</html>
